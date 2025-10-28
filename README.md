@@ -19,7 +19,7 @@ The project implements a **Calculator System in C++** and demonstrates **Softwar
 ##  Technologies Used
 - **Language:** C++  
 - **Testing Framework:** Google Test (GTest)  
-- **Tools:** Git, Google Colab, Visual Studio Code  
+- **Tools:** Git, Google Colab
 - **Models Used:** COCOMO Model, ISO 9001 Quality Planning  
 
 ---
@@ -102,7 +102,6 @@ Experiment: Cocomo estimation, Quality Planning with ISO Standards & Software Te
 
  Git Commands Used
 bash
-Copy code
 git init
 git add .
 git commit -m "Initial commit for calculator and testing project"
