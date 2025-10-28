@@ -34,7 +34,7 @@ int divide(int a, int b) {
 }
  Testing Example (Google Test)
 cpp
-Copy code
+
 TEST(CalculatorBlackBoxTest, AddPositiveNumbers) {
     Calculator calc;
     EXPECT_EQ(calc.add(5, 3), 8);
@@ -80,28 +80,25 @@ Quality assurance and verification steps
 The COCOMO Model is used for cost and effort estimation of the software project.
 Formula used:
 
-java
-Copy code
 Effort = a × (KLOC)^b
 Development Time = c × (Effort)^d
 How to Run
  Run Calculator Code
 bash
-Copy code
+
 g++ calculator.cpp -o calculator
 ./calculator
  Run Testing Code
 bash
-Copy code
+
 g++ test_calculator.cpp -lgtest -lpthread -o test_calculator
 ./test_calculator
  Author
 Kavyanshi Agarwal
 B.E. CSE (Hons.) – CSBS
 Chandigarh University
-
 Course: Software Engineering 
-Experiment: Cocomo estimation Quality Planning with ISO Standards & Software Testing
+Experiment: Cocomo estimation, Quality Planning with ISO Standards & Software Testing
 
  Git Commands Used
 bash
